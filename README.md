@@ -68,3 +68,4 @@ You can provide an overall additional route, which will be used on all instances
         res.json({ error: 'method not allowed' });
     });
 
+> If you also configured the async routes addon, you can also use async routes in the custom `catchAll` routes.
