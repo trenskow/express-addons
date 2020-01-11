@@ -22,9 +22,7 @@
   },
   "homepage": "https://github.com/trenskow/express-addons#readme",
   "dependencies": {
-    "array-flatten": "^3.0.0",
     "merge": "^1.2.1",
-    "methods": "^1.1.2",
     "semver": "^7.1.1"
   }
 }
