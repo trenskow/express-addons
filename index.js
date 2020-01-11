@@ -12,5 +12,5 @@ if (!semver.satisfies(require(expressPackageJson).version, 'v4')) {
 
 module.exports = exports = {};
 
-exports.async = require('./lib/asyncroutes');
+exports.asyncRoutes = require('./lib/asyncroutes');
 exports.catchAll = require('./lib/catchall');
