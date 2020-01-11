@@ -56,15 +56,15 @@ You can also provide an additional routes for custom response handling.
 
 ## Configuration
 
-   const { catchAll } = require('express-extensions');
-
-   catchAll();
+    const { catchAll } = require('express-extensions');
+    
+    catchAll();
 
 You can provide an overall additional route, which will be used on all instances where `route.catchAll()` is used by providing it with the configuration.
 
-   const { catchAll } = require('express-extensions');
-
-   catchAll((req, res) => {
-       res.json({ error: 'method not allowed' });
-   });
+    const { catchAll } = require('express-extensions');
+    
+    catchAll((req, res) => {
+        res.json({ error: 'method not allowed' });
+    });
 
