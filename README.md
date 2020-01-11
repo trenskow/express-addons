@@ -4,7 +4,7 @@ express-addons
 
 # Introduction
 
-This is a small package for doing some extensions on express.js 4.
+This is a small package for doing some addons on express.js 4.
 
 # Async Routes
 
@@ -29,7 +29,7 @@ It's simple and it's strait forward. Remark that the `next` parameter is not exp
 
 ## Configuration
 
-    const { asyncRoutes } = require('express-extensions');
+    const { asyncRoutes } = require('express-addons');
     
     asyncRoutes();
 
@@ -56,13 +56,13 @@ You can also provide an additional routes for custom response handling.
 
 ## Configuration
 
-    const { catchAll } = require('express-extensions');
+    const { catchAll } = require('express-addons');
     
     catchAll();
 
 You can provide an overall additional route, which will be used on all instances where `route.catchAll()` is used by providing it with the configuration.
 
-    const { catchAll } = require('express-extensions');
+    const { catchAll } = require('express-addons');
     
     catchAll((req, res) => {
         res.json({ error: 'method not allowed' });
