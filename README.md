@@ -18,6 +18,8 @@ Here is an example.
         
         await something();
         
+        res.send('This is my response.');
+        
     });
 
 It's simple and it's strait forward. Remark that the `next` parameter is not exposed to async routes.
