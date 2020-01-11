@@ -1,0 +1,30 @@
+{
+  "name": "express-addons",
+  "version": "1.0.0",
+  "description": "Small addons for express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trenskow/express-addons.git"
+  },
+  "keywords": [
+    "express",
+    "async",
+    "catchall"
+  ],
+  "author": "Kristian Trenskow <trenskow@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trenskow/express-addons/issues"
+  },
+  "homepage": "https://github.com/trenskow/express-addons#readme",
+  "dependencies": {
+    "array-flatten": "^3.0.0",
+    "merge": "^1.2.1",
+    "methods": "^1.1.2",
+    "semver": "^7.1.1"
+  }
+}
