@@ -69,3 +69,7 @@ You can provide an overall additional route, which will be used on all instances
     });
 
 > If you also configured the async routes addon, you can also use async routes in the custom `catchAll` routes.
+
+# License
+
+New BSD License. See file LICENSE.
