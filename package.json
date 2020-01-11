@@ -1,6 +1,6 @@
 {
   "name": "express-addons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small addons for express.js.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "catchall"
   ],
   "author": "Kristian Trenskow <trenskow@me.com>",
-  "license": "New BSD License",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/trenskow/express-addons/issues"
   },
