@@ -1,6 +1,6 @@
 {
   "name": "express-addons",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Small addons for express.js.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/trenskow/express-addons#readme",
   "dependencies": {
+    "array-flatten": "^3.0.0",
     "merge": "^1.2.1",
     "semver": "^7.1.1"
   }
