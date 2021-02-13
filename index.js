@@ -15,3 +15,4 @@ module.exports = exports = {};
 exports.asyncRoutes = require('./lib/asyncroutes');
 exports.catchAll = require('./lib/catchall');
 exports.promiseStart = require('./lib/promisestart');
+exports.mount = require('./lib/mount');
