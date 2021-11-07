@@ -1,6 +1,6 @@
 {
   "name": "express-addons",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Small addons for express.js.",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/trenskow/express-addons#readme",
   "dependencies": {
-    "@trenskow/caseit": "^1.0.1",
+    "@trenskow/caseit": "^1.1.0",
     "@trenskow/stack": "^0.1.1",
     "array-flatten": "^3.0.0",
-    "eslint": "^7.32.0",
     "merge": "^2.1.1",
-    "semver": "^7.3.4"
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
   }
 }
