@@ -1,6 +1,6 @@
 {
   "name": "express-addons",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Small addons for express.js.",
   "main": "index.js",
   "scripts": {
